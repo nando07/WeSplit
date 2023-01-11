@@ -11,6 +11,7 @@
 		9ABC6EE52963F0F200C4DA36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC6EE42963F0F200C4DA36 /* ContentView.swift */; };
 		9ABC6EE72963F0F300C4DA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC6EE62963F0F300C4DA36 /* Assets.xcassets */; };
 		9ABC6EEB2963F0F300C4DA36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC6EEA2963F0F300C4DA36 /* Preview Assets.xcassets */; };
+		9ABC6EF22964DEC400C4DA36 /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC6EF12964DEC400C4DA36 /* TextFieldClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9ABC6EE62963F0F300C4DA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABC6EE82963F0F300C4DA36 /* WeSplit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeSplit.entitlements; sourceTree = "<group>"; };
 		9ABC6EEA2963F0F300C4DA36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9ABC6EF12964DEC400C4DA36 /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				9ABC6EE22963F0F200C4DA36 /* WeSplitApp.swift */,
 				9ABC6EE42963F0F200C4DA36 /* ContentView.swift */,
+				9ABC6EF12964DEC400C4DA36 /* TextFieldClearButton.swift */,
 				9ABC6EE62963F0F300C4DA36 /* Assets.xcassets */,
 				9ABC6EE82963F0F300C4DA36 /* WeSplit.entitlements */,
 				9ABC6EE92963F0F300C4DA36 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABC6EE52963F0F200C4DA36 /* ContentView.swift in Sources */,
+				9ABC6EF22964DEC400C4DA36 /* TextFieldClearButton.swift in Sources */,
 				9ABC6EE32963F0F200C4DA36 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +283,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -317,7 +321,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
